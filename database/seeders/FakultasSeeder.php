@@ -15,7 +15,7 @@ class FakultasSeeder extends Seeder
     public function run(): void
     {
         Fakultas::factory()
-            ->count(5)
+            ->count(50)
             ->has(ProgramStudi::factory()->count(3), 'programStudi')
             ->create();
     }

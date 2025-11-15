@@ -23,10 +23,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             FakultasSeeder::class,
-        ]);
-
-        $this->call([
             PerpustakaanSeeder::class,
         ]);
+        
     }
 }
